@@ -164,6 +164,7 @@ body{
 }
 
 .logreg-box .form-box{
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,6 +175,20 @@ body{
     border-top-right-radius:10px;
     border-bottom-right-radius: 10px;
     color: #e4e4e4;
+}
+
+.logreg-box .form-box.register{
+    transform: translateX(430px);
+}
+
+.logreg-box .form-box.login{
+    transform: translateX(0);
+    
+}
+
+.logreg-box.active .form-box.login{
+    transform: translateX(430px);
+    transition-delay: 0s;
 }
 
 .form-box h2{
