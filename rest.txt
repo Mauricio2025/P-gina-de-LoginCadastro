@@ -1,0 +1,33 @@
+<div class="form-box register">
+
+                <form action="#">
+                    <h2>Registra-se</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></span>
+                        <input type="text" required>
+                        <label>Nome</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="e-mail" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock'></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Eu concordo com os Termos e Condições</label>
+                    </div>
+                    <button type="submit" class="btn">Entrar</button>
+
+                    <div class="login-register">
+                        <p>Já tem uma conta? <a href="#" class="">Cadastra-se</a></p>
+                    </div>
+                </form>
+            </div>
